@@ -103,7 +103,7 @@ mysqli_close($connection);
   <hr>
  
   <!-- Input form -->
- <form class="w3-container" action="db.php" method="POST">
+ <form class="w3-container" action="db.php" onsubmit="redirect()" method="POST">
   <p>
   <label>Food Name</label>
   <input class="w3-input" type="text" name="name"></p>
@@ -164,6 +164,14 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
+  
+function redirect()
+  {
+    function redirect() {
+      // Redirect to the desired page
+      window.location.href = "http://192.168.70.129/";
+    }
+  }
 </script>
 
 </body>
