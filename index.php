@@ -105,14 +105,15 @@ mysqli_close($connection);
   <!-- Input form -->
  <form class="w3-container">
   <p>
-  <label>First Name</label>
+  <label>Food Name</label>
   <input class="w3-input" type="text"></p>
   <p>
-  <label>Last Name</label>
+  <label>Food description</label>
   <input class="w3-input" type="text"></p>
   <p>
-  <label>Email</label>
+  <label>Food image</label>
   <input class="w3-input" type="text"></p>
+   <input class="w3-input" type="submit" name="submit" value="Add">
 </form>
   
   <!-- Footer -->
