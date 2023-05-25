@@ -24,6 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Execute the statement
     if ($stmt->execute()) {
         echo "Form data submitted successfully.";
+        echo var_dump($title, $description, $image);
     } else {
         echo "Error: " . $stmt->error;
     }
