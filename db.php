@@ -35,4 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Close the database connection
 $connection->close();
+header("Location: http://192.168.70.129/");
+exit;
 ?>
