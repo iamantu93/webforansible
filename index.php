@@ -51,11 +51,11 @@ if ($result) {
         $description = $row['description'];
 
         // Output the fetched data
-        echo '<div class="w3-quarter"> \n';
-        echo '<img src="' . $image . '" alt="' . $title . '" style="width:100%"> \n';
-        echo '<h3>' . $title . '</h3> \n';
-        echo '<p>' . $description . '</p> \n';
-        echo '</div> \n';
+        echo '<div class="w3-quarter">';
+        echo '<img src="' . $image . '" alt="' . $title . '" style="width:100%">';
+        echo '<h3>' . $title . '</h3>';
+        echo '<p>' . $description . '</p>';
+        echo '</div>';
     }
 
     // Free the result set
