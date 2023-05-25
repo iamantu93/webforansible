@@ -101,6 +101,19 @@ mysqli_close($connection);
     </div>
   </div>
   <hr>
+ 
+  <!-- Input form -->
+ <form class="w3-container">
+  <p>
+  <label>First Name</label>
+  <input class="w3-input" type="text"></p>
+  <p>
+  <label>Last Name</label>
+  <input class="w3-input" type="text"></p>
+  <p>
+  <label>Email</label>
+  <input class="w3-input" type="text"></p>
+</form>
   
   <!-- Footer -->
   <footer class="w3-row-padding w3-padding-32">
