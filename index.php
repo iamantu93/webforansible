@@ -51,11 +51,11 @@ if ($result) {
         $description = $row['description'];
 
         // Output the fetched data
-        echo '<div class="w3-quarter">';
-        echo '<img src="' . $image . '" alt="' . $title . '" style="width:100%">';
-        echo '<h3>' . $title . '</h3>';
-        echo '<p>' . $description . '</p>';
-        echo '</div>';
+        echo '<div class="w3-quarter">\n';
+        echo '<img src="' . $image . '" alt="' . $title . '" style="width:100%">\n';
+        echo '<h3>' . $title . '</h3>\n';
+        echo '<p>' . $description . '</p>\n';
+        echo '</div>\n';
     }
 
     // Free the result set
@@ -70,29 +70,7 @@ mysqli_close($connection);
 ?>
 </div>
   
-  <!-- Second Photo Grid-->
-  <!-- <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
-      <img src="w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="w3images/salmon.jpg" alt="Salmon" style="width:100%">
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
-      <h3>The Perfect Sandwich, A Real Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="w3images/croissant.jpg" alt="Croissant" style="width:100%">
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div> -->
+ 
 
   <!-- Pagination -->
   <div class="w3-center w3-padding-32">
