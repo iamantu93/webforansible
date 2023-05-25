@@ -52,9 +52,13 @@ if ($result) {
 
         // Output the fetched data
         echo '<div class="w3-quarter">';
+        echo "\n"
         echo '<img src="' . $image . '" alt="' . $title . '" style="width:100%">';
+        echo "\n"
         echo '<h3>' . $title . '</h3>';
+        echo "\n"
         echo '<p>' . $description . '</p>';
+        echo "\n"
         echo '</div>';
     }
 
