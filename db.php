@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt = $conn->prepare("INSERT INTO food_items (title, description, image) VALUES (?, ?, ?)");
     
     // Bind parameters to the statement
-    $stmt->bind_param("sss", $title, $description, $image);
+    $stmt->bind_param( $title, $description, $image);
     
     // Execute the statement
     if ($stmt->execute()) {
