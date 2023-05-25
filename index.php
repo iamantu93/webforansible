@@ -103,16 +103,16 @@ mysqli_close($connection);
   <hr>
  
   <!-- Input form -->
- <form class="w3-container">
+ <form class="w3-container" action="db.php" method="POST">
   <p>
   <label>Food Name</label>
-  <input class="w3-input" type="text"></p>
+  <input class="w3-input" type="text" name="name"></p>
   <p>
   <label>Food description</label>
-  <input class="w3-input" type="text"></p>
+  <input class="w3-input" type="text" name="description"></p>
   <p>
   <label>Food image</label>
-  <input class="w3-input" type="text"></p>
+  <input class="w3-input" type="text" name="image"></p>
    <input class="w3-input" type="submit" name="submit" value="Add">
 </form>
   
