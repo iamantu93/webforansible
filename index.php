@@ -35,7 +35,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 
 <?php
 // Assuming you have a database connection established
-$connection=mysqli_connect("192.168.70.130","ecomuser","ecompassword","ecomdb","3306");
+$connection=mysqli_connect("tmsdb.cnlmvmgydgr8.ap-south-1.rds.amazonaws.com", "root", "antu1234", "ecomdb" , "3306");
 // Query to fetch data from the database
 $query = "SELECT image, title, description FROM food_items";
 
