@@ -1,7 +1,7 @@
 <?php
 
 // Create a database connection
-$connection = mysqli_connect("192.168.70.130", "ecomuser", "ecompassword", "ecomdb", "3306");
+$connection=mysqli_connect("tmsdb.cnlmvmgydgr8.ap-south-1.rds.amazonaws.com", "root", "antu1234", "ecomdb" , "3306");
 
 // Check the connection
 if (mysqli_connect_errno()) {
